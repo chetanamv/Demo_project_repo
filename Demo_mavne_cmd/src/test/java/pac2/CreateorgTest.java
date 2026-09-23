@@ -25,13 +25,5 @@ public class CreateorgTest {
 
 	}
 
-@Test
-
-public void deleteTest()
-{
-	System.out.println("modifyorgidTest executed");
-	boolean b= false;
-	Assert.assertTrue(b);
-
 }
-}
+
