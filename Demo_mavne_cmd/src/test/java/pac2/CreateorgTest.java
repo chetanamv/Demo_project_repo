@@ -1,5 +1,8 @@
 package pac2;
 
+import static org.testng.Assert.fail;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CreateorgTest {
@@ -14,10 +17,21 @@ public class CreateorgTest {
 	
 @Test
 	
-	public void modifyorgidTest()
+	public void modifyOrgidTest()
 	{
 		System.out.println("modifyorgidTest executed");
-	}
-	
+		boolean b= false;
+		Assert.assertTrue(b);
 
+	}
+
+@Test
+
+public void deleteTest()
+{
+	System.out.println("modifyorgidTest executed");
+	boolean b= false;
+	Assert.assertTrue(b);
+
+}
 }
